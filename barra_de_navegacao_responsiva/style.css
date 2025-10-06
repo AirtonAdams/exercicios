@@ -1,6 +1,8 @@
 * {
     margin: 0;
+    --gray: #C5C5C5;
     --light_gray: #F2F2F2;
+    --teste: #000000;
 }
 :root {
     font-size: 62.5%;
@@ -53,10 +55,21 @@ body {
     cursor: pointer;
 }
 
+.search__btn:hover {
+    background-color: var(--gray);
+}
+
 .search__mic {
-    background-color: white;
+    background-color: var(--light_gray);
+    border-radius: 25px;
+    padding-inline: 1.3rem;
+    margin-left: 1.5rem;
     border: none;
     cursor: pointer;
+}
+
+.search__mic:hover {
+    background-color: var(--gray);
 }
 
 .icons {
